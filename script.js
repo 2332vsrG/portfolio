@@ -113,3 +113,13 @@ function setupCounterObserver() {
     link.click();
     document.body.removeChild(link);
   }
+
+    const form = document.getElementById('contactForm');
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const subject = encodeURIComponent(document.getElementById('subject').value);
+    const body = encodeURIComponent("Name: " + name + "\nEmail: " + email + "\n\n" + document.getElementById('body').value);
+    window.location.href = `mailto:hsdbandarnayake@gmail.com?subject=${subject}&body=${body}`;
+  });
