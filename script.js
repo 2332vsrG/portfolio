@@ -99,3 +99,17 @@ function setupCounterObserver() {
     counters.forEach((c) => animateCounter(c, +c.dataset.target));
   }
 }
+
+  function openAndDownloadCV() {
+    const cvUrl = 'cv/tt.pdf'; // Replace with your CV path
+    // Open in new tab
+    window.open(cvUrl, '_blank');
+    
+    // Trigger download
+    const link = document.createElement('a');
+    link.href = cvUrl;
+    link.download = 'Vihanga_Rathnayake_CV.pdf'; // Filename for download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
