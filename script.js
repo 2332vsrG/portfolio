@@ -101,7 +101,7 @@ function setupCounterObserver() {
 }
 
   function openAndDownloadCV() {
-    const cvUrl = 'cv/tt.pdf'; // Replace with your CV path
+    const cvUrl = 'cv/Vihanga Rathnayake.pdf'; // Replace with your CV path
     // Open in new tab
     window.open(cvUrl, '_blank');
     
