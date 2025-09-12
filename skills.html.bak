@@ -1,0 +1,33 @@
+<h2 class="section-title">My Skills</h2>
+<div class="skills-container">
+  <div class="skill-category">
+    <h3>Technical Skills</h3>
+    <ul class="skill-list">
+      <li>Java (Intermediate)</li>
+      <li>C# (Intermediate)</li>
+      <li>Web Development (HTML, CSS, JavaScript)</li>
+      <li>Database Management (MySQL, SQL)</li>
+      <li>UI/UX Design</li>
+    </ul>
+  </div>
+  <div class="skill-category">
+    <h3>Soft Skills</h3>
+    <ul class="skill-list">
+      <li>Teamwork & Collaboration</li>
+      <li>Leadership & Mentoring</li>
+      <li>Problem-Solving</li>
+      <li>Communication & Public Speaking</li>
+      <li>Organizational Skills</li>
+    </ul>
+  </div>
+  <div class="skill-category">
+    <h3>Other Skills</h3>
+    <ul class="skill-list">
+      <li>Photo & Video Editing</li>
+      <li>Content Creation</li>
+      <li>Event Management</li>
+      <li>Social Media Management</li>
+      <li>Public Relations</li>
+    </ul>
+  </div>
+</div>
