@@ -6,10 +6,8 @@
 
   --white: #ffffff;
   --black: #000000;
-  --purple:#83ea66;
+  --purple:#7dee5e;
   --pink: #4ba291;
-  --red:rgb(255, 0, 0);
-  --redop:rgba(255, 0, 0, 0.154);
 
 }
 
@@ -288,6 +286,7 @@ h1 {
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
+  margin-top: 20px;
 }
 
 .achievement-card::before {
@@ -331,7 +330,15 @@ h1 {
 
 .achievement-desc {
   color: #5a6c7d;
+  height: 40%;
+  /* background-color: red; */
   line-height: 1.5;
+}
+
+.img-container{
+  width: 100%;
+  height: 35%;
+  /* background-color: red; */
 }
 
 /* .img-placeholder {
@@ -712,7 +719,7 @@ h1 {
 .image-placeholder img {
   width: 180px;   /* fixed width */
   height: 220px;  /* fixed height */
-  object-fit: cover; /* crop proportionally */
+  object-fit: cover;
   border-radius: 8px; /* rounded corners */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* optional shadow */
   transition: transform 0.3s ease;

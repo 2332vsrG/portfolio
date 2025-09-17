@@ -90,7 +90,7 @@ function setupCounterObserver() {
           }
         });
       },
-      { threshold: 0.4 }
+      // { threshold: 0.7 }
     ); // trigger when 40% visible
 
     counters.forEach((counter) => observer.observe(counter));
